@@ -1,0 +1,12 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav a {
+  border-radius: 7px;
+}
+nav a.active {
+  background-color: black;
+  color: aliceblue;
+}
