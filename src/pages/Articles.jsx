@@ -21,13 +21,16 @@ function Articles() {
                 className="border-2 max-w-[300px] h-[300px] rounded-2xl p-6 shadow-md inline-block"
                 key={article.id}
               >
-                <img
-                  className="size-fit rounded mb-5 w-64 h-36 "
-                  width={200}
-                  height={250}
-                  src={article.image}
-                  alt=""
-                />
+                <NavLink to={`${article.id}`}>
+                  <img
+
+                    className="size-fit rounded mb-5 w-64 h-36 "
+                    width={200}
+                    height={250}
+                    src={article.image}
+                    alt=""
+                  />
+                </NavLink>
                 <h3 className="text-xl">{article.title}</h3>
                 <p className="text-right italic">{article.author}</p>
                 <NavLink className="link link-accent" to={`${article.id}`}>

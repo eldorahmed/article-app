@@ -14,7 +14,7 @@ function Home() {
         Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
         quasi. In deleniti eaque aut repudiandae et a id nisi.
       </p>
-      <Link to="articles" className="btn btn-primary">Articles</Link>
+      <Link to="articles" className="btn btn-accent">Articles</Link>
     </div>
   </div>
 </div>
